@@ -45,11 +45,15 @@
 			</Item>
 			<Item Name="Write Register.vi" Type="VI" URL="../Write Methods/Write Register.vi"/>
 		</Item>
-		<Item Name="TypeDefs" Type="Folder"/>
+		<Item Name="TypeDefs" Type="Folder">
+			<Item Name="FXP Configuration.ctl" Type="VI" URL="../TypeDefs/FXP Configuration.ctl"/>
+			<Item Name="Cluster Configuration.ctl" Type="VI" URL="../TypeDefs/Cluster Configuration.ctl"/>
+		</Item>
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="Open FPGA Session.vi" Type="VI" URL="../Utilities/Open FPGA Session.vi"/>
 			<Item Name="Convert FPGA Refnum to Session.vi" Type="VI" URL="../Utilities/Convert FPGA Refnum to Session.vi"/>
 			<Item Name="Find Register Offset.vi" Type="VI" URL="../Utilities/Find Register Offset.vi"/>
+			<Item Name="FXP to DBL.vi" Type="VI" URL="../Utilities/FXP to DBL.vi"/>
 		</Item>
 	</Item>
 </Library>
