@@ -26,8 +26,10 @@
 				<Item Name="Read U16.vi" Type="VI" URL="../Read Methods/Read U16.vi"/>
 				<Item Name="Read U32.vi" Type="VI" URL="../Read Methods/Read U32.vi"/>
 				<Item Name="Read U64.vi" Type="VI" URL="../Read Methods/Read U64.vi"/>
+				<Item Name="Read U8 Array.vi" Type="VI" URL="../Read Methods/Read U8 Array.vi"/>
 			</Item>
 			<Item Name="Read Register.vi" Type="VI" URL="../Read Methods/Read Register.vi"/>
+			<Item Name="Read Cluster Register.vim" Type="VI" URL="../Read Methods/Read Cluster Register.vim"/>
 		</Item>
 		<Item Name="Write Methods" Type="Folder">
 			<Item Name="Instances" Type="Folder">
@@ -54,6 +56,9 @@
 			<Item Name="Convert FPGA Refnum to Session.vi" Type="VI" URL="../Utilities/Convert FPGA Refnum to Session.vi"/>
 			<Item Name="Find Register Offset.vi" Type="VI" URL="../Utilities/Find Register Offset.vi"/>
 			<Item Name="FXP to DBL.vi" Type="VI" URL="../Utilities/FXP to DBL.vi"/>
+			<Item Name="Parser Cluster Configuration.vi" Type="VI" URL="../Utilities/Parser Cluster Configuration.vi"/>
+			<Item Name="Convert Cluster BLOB to Bool Array.vi" Type="VI" URL="../Utilities/Convert Cluster BLOB to Bool Array.vi"/>
+			<Item Name="Convert Bool Array to Cluster.vim" Type="VI" URL="../Utilities/Convert Bool Array to Cluster.vim"/>
 		</Item>
 	</Item>
 </Library>
