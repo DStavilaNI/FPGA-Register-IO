@@ -8,7 +8,10 @@
 
 </Property>
 	<Item Name="Private API" Type="Folder">
-		<Item Name="SubVIs" Type="Folder"/>
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Check Cluster Configuration Store.vi" Type="VI" URL="../Utilities/Check Cluster Configuration Store.vi"/>
+			<Item Name="Check Register Data Store.vi" Type="VI" URL="../Utilities/Check Register Data Store.vi"/>
+		</Item>
 	</Item>
 	<Item Name="Public API" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -26,8 +29,10 @@
 				<Item Name="Read U16.vi" Type="VI" URL="../Read Methods/Read U16.vi"/>
 				<Item Name="Read U32.vi" Type="VI" URL="../Read Methods/Read U32.vi"/>
 				<Item Name="Read U64.vi" Type="VI" URL="../Read Methods/Read U64.vi"/>
+				<Item Name="Read U8 Array.vi" Type="VI" URL="../Read Methods/Read U8 Array.vi"/>
 			</Item>
 			<Item Name="Read Register.vi" Type="VI" URL="../Read Methods/Read Register.vi"/>
+			<Item Name="Read Cluster Register.vim" Type="VI" URL="../Read Methods/Read Cluster Register.vim"/>
 		</Item>
 		<Item Name="Write Methods" Type="Folder">
 			<Item Name="Instances" Type="Folder">
@@ -48,6 +53,8 @@
 		<Item Name="TypeDefs" Type="Folder">
 			<Item Name="FXP Configuration.ctl" Type="VI" URL="../TypeDefs/FXP Configuration.ctl"/>
 			<Item Name="Cluster Configuration.ctl" Type="VI" URL="../TypeDefs/Cluster Configuration.ctl"/>
+			<Item Name="Register Data Store.ctl" Type="VI" URL="../TypeDefs/Register Data Store.ctl"/>
+			<Item Name="Cluster Configuration Store.ctl" Type="VI" URL="../TypeDefs/Cluster Configuration Store.ctl"/>
 		</Item>
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="Open FPGA Session.vi" Type="VI" URL="../Utilities/Open FPGA Session.vi"/>
@@ -55,6 +62,9 @@
 			<Item Name="Find Register Offset.vi" Type="VI" URL="../Utilities/Find Register Offset.vi"/>
 			<Item Name="DBL to FXP.vi" Type="VI" URL="../Utilities/DBL to FXP.vi"/>
 			<Item Name="FXP to DBL.vi" Type="VI" URL="../Utilities/FXP to DBL.vi"/>
+			<Item Name="Parser Cluster Configuration.vi" Type="VI" URL="../Utilities/Parser Cluster Configuration.vi"/>
+			<Item Name="Convert Cluster BLOB to Bool Array.vi" Type="VI" URL="../Utilities/Convert Cluster BLOB to Bool Array.vi"/>
+			<Item Name="Convert Bool Array to Cluster.vim" Type="VI" URL="../Utilities/Convert Bool Array to Cluster.vim"/>
 		</Item>
 	</Item>
 </Library>
