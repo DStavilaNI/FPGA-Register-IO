@@ -8,7 +8,10 @@
 
 </Property>
 	<Item Name="Private API" Type="Folder">
-		<Item Name="SubVIs" Type="Folder"/>
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Check Cluster Configuration Store.vi" Type="VI" URL="../Utilities/Check Cluster Configuration Store.vi"/>
+			<Item Name="Check Register Data Store.vi" Type="VI" URL="../Utilities/Check Register Data Store.vi"/>
+		</Item>
 	</Item>
 	<Item Name="Public API" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -50,6 +53,8 @@
 		<Item Name="TypeDefs" Type="Folder">
 			<Item Name="FXP Configuration.ctl" Type="VI" URL="../TypeDefs/FXP Configuration.ctl"/>
 			<Item Name="Cluster Configuration.ctl" Type="VI" URL="../TypeDefs/Cluster Configuration.ctl"/>
+			<Item Name="Register Data Store.ctl" Type="VI" URL="../TypeDefs/Register Data Store.ctl"/>
+			<Item Name="Cluster Configuration Store.ctl" Type="VI" URL="../TypeDefs/Cluster Configuration Store.ctl"/>
 		</Item>
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="Open FPGA Session.vi" Type="VI" URL="../Utilities/Open FPGA Session.vi"/>
