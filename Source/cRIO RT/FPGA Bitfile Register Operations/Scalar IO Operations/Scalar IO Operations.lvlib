@@ -61,6 +61,7 @@
 			<Item Name="Open FPGA Session.vi" Type="VI" URL="../Utilities/Open FPGA Session.vi"/>
 			<Item Name="Convert FPGA Refnum to Session.vi" Type="VI" URL="../Utilities/Convert FPGA Refnum to Session.vi"/>
 			<Item Name="Find Register Offset.vi" Type="VI" URL="../Utilities/Find Register Offset.vi"/>
+			<Item Name="DBL to FXP.vi" Type="VI" URL="../Utilities/DBL to FXP.vi"/>
 			<Item Name="FXP to DBL.vi" Type="VI" URL="../Utilities/FXP to DBL.vi"/>
 			<Item Name="Parser Cluster Configuration.vi" Type="VI" URL="../Utilities/Parser Cluster Configuration.vi"/>
 			<Item Name="Convert Cluster BLOB to Bool Array.vi" Type="VI" URL="../Utilities/Convert Cluster BLOB to Bool Array.vi"/>
