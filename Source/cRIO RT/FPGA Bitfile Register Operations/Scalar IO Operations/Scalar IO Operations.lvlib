@@ -48,6 +48,7 @@
 				<Item Name="Write U32.vi" Type="VI" URL="../Write Methods/Write U32.vi"/>
 				<Item Name="Write U64.vi" Type="VI" URL="../Write Methods/Write U64.vi"/>
 			</Item>
+			<Item Name="Write Cluster Register.vim" Type="VI" URL="../Write Methods/Write Cluster Register.vim"/>
 			<Item Name="Write Register.vi" Type="VI" URL="../Write Methods/Write Register.vi"/>
 		</Item>
 		<Item Name="TypeDefs" Type="Folder">
@@ -64,6 +65,7 @@
 			<Item Name="Parser Cluster Configuration.vi" Type="VI" URL="../Utilities/Parser Cluster Configuration.vi"/>
 			<Item Name="Convert Cluster BLOB to Bool Array.vi" Type="VI" URL="../Utilities/Convert Cluster BLOB to Bool Array.vi"/>
 			<Item Name="Convert Bool Array to Cluster.vim" Type="VI" URL="../Utilities/Convert Bool Array to Cluster.vim"/>
+			<Item Name="Convert Cluster to Bool Array.vim" Type="VI" URL="../Utilities/Convert Cluster to Bool Array.vim"/>
 		</Item>
 	</Item>
 </Library>
