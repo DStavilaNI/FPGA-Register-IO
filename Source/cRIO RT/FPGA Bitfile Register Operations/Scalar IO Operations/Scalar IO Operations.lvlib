@@ -43,6 +43,7 @@
 				<Item Name="Write I32.vi" Type="VI" URL="../Write Methods/Write I32.vi"/>
 				<Item Name="Write I64.vi" Type="VI" URL="../Write Methods/Write I64.vi"/>
 				<Item Name="Write SGL.vi" Type="VI" URL="../Write Methods/Write SGL.vi"/>
+				<Item Name="Write U8 Array.vi" Type="VI" URL="../Write Methods/Write U8 Array.vi"/>
 				<Item Name="Write U8.vi" Type="VI" URL="../Write Methods/Write U8.vi"/>
 				<Item Name="Write U16.vi" Type="VI" URL="../Write Methods/Write U16.vi"/>
 				<Item Name="Write U32.vi" Type="VI" URL="../Write Methods/Write U32.vi"/>
@@ -65,6 +66,7 @@
 			<Item Name="FXP to DBL.vi" Type="VI" URL="../Utilities/FXP to DBL.vi"/>
 			<Item Name="Parser Cluster Configuration.vi" Type="VI" URL="../Utilities/Parser Cluster Configuration.vi"/>
 			<Item Name="Convert Cluster BLOB to Bool Array.vi" Type="VI" URL="../Utilities/Convert Cluster BLOB to Bool Array.vi"/>
+			<Item Name="Convert Bool Array to Cluster BLOB.vi" Type="VI" URL="../Utilities/Convert Bool Array to Cluster BLOB.vi"/>
 			<Item Name="Convert Bool Array to Cluster.vim" Type="VI" URL="../Utilities/Convert Bool Array to Cluster.vim"/>
 			<Item Name="Convert Cluster to Bool Array.vim" Type="VI" URL="../Utilities/Convert Cluster to Bool Array.vim"/>
 		</Item>
