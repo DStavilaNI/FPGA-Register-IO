@@ -126,9 +126,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Scalar IO Operations" Type="Folder">
 				<Item Name="Scalar IO Operations.lvlib" Type="Library" URL="../cRIO RT/FPGA Bitfile Register Operations/Scalar IO Operations/Scalar IO Operations.lvlib"/>
 			</Item>
-			<Item Name="Speciality IO Operations" Type="Folder">
-				<Item Name="Speciality IO Operations.lvlib" Type="Library" URL="../cRIO RT/FPGA Bitfile Register Operations/Speciality IO Operations/Speciality IO Operations.lvlib"/>
-			</Item>
 		</Item>
 		<Item Name="TypeDefs" Type="Folder">
 			<Item Name="Complex cluster.ctl" Type="VI" URL="../cRIO RT/TypeDefs/Complex cluster.ctl"/>
