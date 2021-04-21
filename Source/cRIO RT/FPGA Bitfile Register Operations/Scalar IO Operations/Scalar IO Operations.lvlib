@@ -17,40 +17,48 @@
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Read Methods" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Instances" Type="Folder">
-				<Item Name="Read Boolean.vi" Type="VI" URL="../Read Methods/Read Boolean.vi"/>
-				<Item Name="Read FXP.vi" Type="VI" URL="../Read Methods/Read FXP.vi"/>
-				<Item Name="Read I8.vi" Type="VI" URL="../Read Methods/Read I8.vi"/>
-				<Item Name="Read I16.vi" Type="VI" URL="../Read Methods/Read I16.vi"/>
-				<Item Name="Read I32.vi" Type="VI" URL="../Read Methods/Read I32.vi"/>
-				<Item Name="Read I64.vi" Type="VI" URL="../Read Methods/Read I64.vi"/>
-				<Item Name="Read SGL.vi" Type="VI" URL="../Read Methods/Read SGL.vi"/>
-				<Item Name="Read U8.vi" Type="VI" URL="../Read Methods/Read U8.vi"/>
-				<Item Name="Read U16.vi" Type="VI" URL="../Read Methods/Read U16.vi"/>
-				<Item Name="Read U32.vi" Type="VI" URL="../Read Methods/Read U32.vi"/>
-				<Item Name="Read U64.vi" Type="VI" URL="../Read Methods/Read U64.vi"/>
-				<Item Name="Read U8 Array.vi" Type="VI" URL="../Read Methods/Read U8 Array.vi"/>
+			<Item Name="Read Cluster Register" Type="Folder">
+				<Item Name="Read Cluster Register.vim" Type="VI" URL="../Read Methods/Read Cluster Register.vim"/>
 			</Item>
-			<Item Name="Read Register.vi" Type="VI" URL="../Read Methods/Read Register.vi"/>
-			<Item Name="Read Cluster Register.vim" Type="VI" URL="../Read Methods/Read Cluster Register.vim"/>
+			<Item Name="Read Data Register" Type="Folder">
+				<Item Name="Instances" Type="Folder">
+					<Item Name="Read Boolean.vi" Type="VI" URL="../Read Methods/Read Boolean.vi"/>
+					<Item Name="Read FXP.vi" Type="VI" URL="../Read Methods/Read FXP.vi"/>
+					<Item Name="Read I8.vi" Type="VI" URL="../Read Methods/Read I8.vi"/>
+					<Item Name="Read I16.vi" Type="VI" URL="../Read Methods/Read I16.vi"/>
+					<Item Name="Read I32.vi" Type="VI" URL="../Read Methods/Read I32.vi"/>
+					<Item Name="Read I64.vi" Type="VI" URL="../Read Methods/Read I64.vi"/>
+					<Item Name="Read SGL.vi" Type="VI" URL="../Read Methods/Read SGL.vi"/>
+					<Item Name="Read U8.vi" Type="VI" URL="../Read Methods/Read U8.vi"/>
+					<Item Name="Read U16.vi" Type="VI" URL="../Read Methods/Read U16.vi"/>
+					<Item Name="Read U32.vi" Type="VI" URL="../Read Methods/Read U32.vi"/>
+					<Item Name="Read U64.vi" Type="VI" URL="../Read Methods/Read U64.vi"/>
+					<Item Name="Read U8 Array.vi" Type="VI" URL="../Read Methods/Read U8 Array.vi"/>
+				</Item>
+				<Item Name="Read Data Register.vi" Type="VI" URL="../Read Methods/Read Data Register.vi"/>
+			</Item>
 		</Item>
 		<Item Name="Write Methods" Type="Folder">
-			<Item Name="Instances" Type="Folder">
-				<Item Name="Write Boolean.vi" Type="VI" URL="../Write Methods/Write Boolean.vi"/>
-				<Item Name="Write FXP.vi" Type="VI" URL="../Write Methods/Write FXP.vi"/>
-				<Item Name="Write I8.vi" Type="VI" URL="../Write Methods/Write I8.vi"/>
-				<Item Name="Write I16.vi" Type="VI" URL="../Write Methods/Write I16.vi"/>
-				<Item Name="Write I32.vi" Type="VI" URL="../Write Methods/Write I32.vi"/>
-				<Item Name="Write I64.vi" Type="VI" URL="../Write Methods/Write I64.vi"/>
-				<Item Name="Write SGL.vi" Type="VI" URL="../Write Methods/Write SGL.vi"/>
-				<Item Name="Write U8 Array.vi" Type="VI" URL="../Write Methods/Write U8 Array.vi"/>
-				<Item Name="Write U8.vi" Type="VI" URL="../Write Methods/Write U8.vi"/>
-				<Item Name="Write U16.vi" Type="VI" URL="../Write Methods/Write U16.vi"/>
-				<Item Name="Write U32.vi" Type="VI" URL="../Write Methods/Write U32.vi"/>
-				<Item Name="Write U64.vi" Type="VI" URL="../Write Methods/Write U64.vi"/>
+			<Item Name="Write Cluster Register" Type="Folder">
+				<Item Name="Write Cluster Register.vim" Type="VI" URL="../Write Methods/Write Cluster Register.vim"/>
 			</Item>
-			<Item Name="Write Cluster Register.vim" Type="VI" URL="../Write Methods/Write Cluster Register.vim"/>
-			<Item Name="Write Register.vi" Type="VI" URL="../Write Methods/Write Register.vi"/>
+			<Item Name="Write Data Register" Type="Folder">
+				<Item Name="Instances" Type="Folder">
+					<Item Name="Write Boolean.vi" Type="VI" URL="../Write Methods/Write Boolean.vi"/>
+					<Item Name="Write FXP.vi" Type="VI" URL="../Write Methods/Write FXP.vi"/>
+					<Item Name="Write I8.vi" Type="VI" URL="../Write Methods/Write I8.vi"/>
+					<Item Name="Write I16.vi" Type="VI" URL="../Write Methods/Write I16.vi"/>
+					<Item Name="Write I32.vi" Type="VI" URL="../Write Methods/Write I32.vi"/>
+					<Item Name="Write I64.vi" Type="VI" URL="../Write Methods/Write I64.vi"/>
+					<Item Name="Write SGL.vi" Type="VI" URL="../Write Methods/Write SGL.vi"/>
+					<Item Name="Write U8 Array.vi" Type="VI" URL="../Write Methods/Write U8 Array.vi"/>
+					<Item Name="Write U8.vi" Type="VI" URL="../Write Methods/Write U8.vi"/>
+					<Item Name="Write U16.vi" Type="VI" URL="../Write Methods/Write U16.vi"/>
+					<Item Name="Write U32.vi" Type="VI" URL="../Write Methods/Write U32.vi"/>
+					<Item Name="Write U64.vi" Type="VI" URL="../Write Methods/Write U64.vi"/>
+				</Item>
+				<Item Name="Write Data Register.vi" Type="VI" URL="../Write Methods/Write Data Register.vi"/>
+			</Item>
 		</Item>
 		<Item Name="TypeDefs" Type="Folder">
 			<Item Name="FXP Configuration.ctl" Type="VI" URL="../TypeDefs/FXP Configuration.ctl"/>
@@ -65,7 +73,7 @@
 			<Item Name="DBL to FXP Raw.vi" Type="VI" URL="../Utilities/DBL to FXP Raw.vi"/>
 			<Item Name="FXP Raw to DBL.vi" Type="VI" URL="../Utilities/FXP Raw to DBL.vi"/>
 			<Item Name="Pad FXP Raw Data Array.vi" Type="VI" URL="../Utilities/Pad FXP Raw Data Array.vi"/>
-			<Item Name="Parser Cluster Configuration.vi" Type="VI" URL="../Utilities/Parser Cluster Configuration.vi"/>
+			<Item Name="Parse Cluster Configuration.vi" Type="VI" URL="../Utilities/Parse Cluster Configuration.vi"/>
 			<Item Name="Convert Cluster BLOB to Bool Array.vi" Type="VI" URL="../Utilities/Convert Cluster BLOB to Bool Array.vi"/>
 			<Item Name="Convert Bool Array to Cluster BLOB.vi" Type="VI" URL="../Utilities/Convert Bool Array to Cluster BLOB.vi"/>
 			<Item Name="Convert Bool Array to Cluster.vim" Type="VI" URL="../Utilities/Convert Bool Array to Cluster.vim"/>
