@@ -8,9 +8,24 @@
 
 </Property>
 	<Item Name="Private API" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Error Handling" Type="Folder">
+			<Item Name="Error 6000.vi" Type="VI" URL="../Error Handling/Error 6000.vi"/>
+			<Item Name="Error 6001.vi" Type="VI" URL="../Error Handling/Error 6001.vi"/>
+			<Item Name="Error 6002.vi" Type="VI" URL="../Error Handling/Error 6002.vi"/>
+			<Item Name="Error 6003.vi" Type="VI" URL="../Error Handling/Error 6003.vi"/>
+		</Item>
 		<Item Name="SubVIs" Type="Folder">
-			<Item Name="Check Cluster Configuration Store.vi" Type="VI" URL="../Utilities/Check Cluster Configuration Store.vi"/>
-			<Item Name="Check Register Data Store.vi" Type="VI" URL="../Utilities/Check Register Data Store.vi"/>
+			<Item Name="Check Cluster Configuration Store.vi" Type="VI" URL="../SubVIs/Check Cluster Configuration Store.vi"/>
+			<Item Name="Check Register Data Store.vi" Type="VI" URL="../SubVIs/Check Register Data Store.vi"/>
+			<Item Name="Convert Bool Array to Cluster BLOB.vi" Type="VI" URL="../SubVIs/Convert Bool Array to Cluster BLOB.vi"/>
+			<Item Name="Convert Bool Array to Cluster.vim" Type="VI" URL="../SubVIs/Convert Bool Array to Cluster.vim"/>
+			<Item Name="Convert Cluster BLOB to Bool Array.vi" Type="VI" URL="../SubVIs/Convert Cluster BLOB to Bool Array.vi"/>
+			<Item Name="Convert Cluster to Bool Array.vim" Type="VI" URL="../SubVIs/Convert Cluster to Bool Array.vim"/>
+			<Item Name="DBL to FXP Raw.vi" Type="VI" URL="../SubVIs/DBL to FXP Raw.vi"/>
+			<Item Name="FXP Raw to DBL.vi" Type="VI" URL="../SubVIs/FXP Raw to DBL.vi"/>
+			<Item Name="Pad FXP Raw Data Array.vi" Type="VI" URL="../SubVIs/Pad FXP Raw Data Array.vi"/>
+			<Item Name="Parse Cluster Configuration.vi" Type="VI" URL="../SubVIs/Parse Cluster Configuration.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Public API" Type="Folder">
@@ -18,24 +33,24 @@
 		<Item Name="Read Methods" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Read Cluster Register" Type="Folder">
-				<Item Name="Read Cluster Register.vim" Type="VI" URL="../Read Methods/Read Cluster Register.vim"/>
+				<Item Name="Read Cluster Register.vim" Type="VI" URL="../Read Methods/Read Cluster Register/Read Cluster Register.vim"/>
 			</Item>
 			<Item Name="Read Data Register" Type="Folder">
 				<Item Name="Instances" Type="Folder">
-					<Item Name="Read Boolean.vi" Type="VI" URL="../Read Methods/Read Boolean.vi"/>
-					<Item Name="Read FXP.vi" Type="VI" URL="../Read Methods/Read FXP.vi"/>
-					<Item Name="Read I8.vi" Type="VI" URL="../Read Methods/Read I8.vi"/>
-					<Item Name="Read I16.vi" Type="VI" URL="../Read Methods/Read I16.vi"/>
-					<Item Name="Read I32.vi" Type="VI" URL="../Read Methods/Read I32.vi"/>
-					<Item Name="Read I64.vi" Type="VI" URL="../Read Methods/Read I64.vi"/>
-					<Item Name="Read SGL.vi" Type="VI" URL="../Read Methods/Read SGL.vi"/>
-					<Item Name="Read U8.vi" Type="VI" URL="../Read Methods/Read U8.vi"/>
-					<Item Name="Read U16.vi" Type="VI" URL="../Read Methods/Read U16.vi"/>
-					<Item Name="Read U32.vi" Type="VI" URL="../Read Methods/Read U32.vi"/>
-					<Item Name="Read U64.vi" Type="VI" URL="../Read Methods/Read U64.vi"/>
-					<Item Name="Read U8 Array.vi" Type="VI" URL="../Read Methods/Read U8 Array.vi"/>
+					<Item Name="Read Boolean.vi" Type="VI" URL="../Read Methods/Read Data Register/Instances/Read Boolean.vi"/>
+					<Item Name="Read FXP.vi" Type="VI" URL="../Read Methods/Read Data Register/Instances/Read FXP.vi"/>
+					<Item Name="Read I8.vi" Type="VI" URL="../Read Methods/Read Data Register/Instances/Read I8.vi"/>
+					<Item Name="Read I16.vi" Type="VI" URL="../Read Methods/Read Data Register/Instances/Read I16.vi"/>
+					<Item Name="Read I32.vi" Type="VI" URL="../Read Methods/Read Data Register/Instances/Read I32.vi"/>
+					<Item Name="Read I64.vi" Type="VI" URL="../Read Methods/Read Data Register/Instances/Read I64.vi"/>
+					<Item Name="Read SGL.vi" Type="VI" URL="../Read Methods/Read Data Register/Instances/Read SGL.vi"/>
+					<Item Name="Read U8.vi" Type="VI" URL="../Read Methods/Read Data Register/Instances/Read U8.vi"/>
+					<Item Name="Read U16.vi" Type="VI" URL="../Read Methods/Read Data Register/Instances/Read U16.vi"/>
+					<Item Name="Read U32.vi" Type="VI" URL="../Read Methods/Read Data Register/Instances/Read U32.vi"/>
+					<Item Name="Read U64.vi" Type="VI" URL="../Read Methods/Read Data Register/Instances/Read U64.vi"/>
+					<Item Name="Read U8 Array.vi" Type="VI" URL="../Read Methods/Read Data Register/Instances/Read U8 Array.vi"/>
 				</Item>
-				<Item Name="Read Data Register.vi" Type="VI" URL="../Read Methods/Read Data Register.vi"/>
+				<Item Name="Read Data Register.vi" Type="VI" URL="../Read Methods/Read Data Register/Read Data Register.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Write Methods" Type="Folder">
@@ -70,14 +85,6 @@
 			<Item Name="Open FPGA Session.vi" Type="VI" URL="../Utilities/Open FPGA Session.vi"/>
 			<Item Name="Convert FPGA Refnum to Session.vi" Type="VI" URL="../Utilities/Convert FPGA Refnum to Session.vi"/>
 			<Item Name="Find Register Offset.vi" Type="VI" URL="../Utilities/Find Register Offset.vi"/>
-			<Item Name="DBL to FXP Raw.vi" Type="VI" URL="../Utilities/DBL to FXP Raw.vi"/>
-			<Item Name="FXP Raw to DBL.vi" Type="VI" URL="../Utilities/FXP Raw to DBL.vi"/>
-			<Item Name="Pad FXP Raw Data Array.vi" Type="VI" URL="../Utilities/Pad FXP Raw Data Array.vi"/>
-			<Item Name="Parse Cluster Configuration.vi" Type="VI" URL="../Utilities/Parse Cluster Configuration.vi"/>
-			<Item Name="Convert Cluster BLOB to Bool Array.vi" Type="VI" URL="../Utilities/Convert Cluster BLOB to Bool Array.vi"/>
-			<Item Name="Convert Bool Array to Cluster BLOB.vi" Type="VI" URL="../Utilities/Convert Bool Array to Cluster BLOB.vi"/>
-			<Item Name="Convert Bool Array to Cluster.vim" Type="VI" URL="../Utilities/Convert Bool Array to Cluster.vim"/>
-			<Item Name="Convert Cluster to Bool Array.vim" Type="VI" URL="../Utilities/Convert Cluster to Bool Array.vim"/>
 		</Item>
 	</Item>
 </Library>
