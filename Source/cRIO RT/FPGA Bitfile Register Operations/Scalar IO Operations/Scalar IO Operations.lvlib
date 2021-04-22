@@ -55,24 +55,24 @@
 		</Item>
 		<Item Name="Write Methods" Type="Folder">
 			<Item Name="Write Cluster Register" Type="Folder">
-				<Item Name="Write Cluster Register.vim" Type="VI" URL="../Write Methods/Write Cluster Register.vim"/>
+				<Item Name="Write Cluster Register.vim" Type="VI" URL="../Write Methods/Write Cluster Register/Write Cluster Register.vim"/>
 			</Item>
 			<Item Name="Write Data Register" Type="Folder">
 				<Item Name="Instances" Type="Folder">
-					<Item Name="Write Boolean.vi" Type="VI" URL="../Write Methods/Write Boolean.vi"/>
-					<Item Name="Write FXP.vi" Type="VI" URL="../Write Methods/Write FXP.vi"/>
-					<Item Name="Write I8.vi" Type="VI" URL="../Write Methods/Write I8.vi"/>
-					<Item Name="Write I16.vi" Type="VI" URL="../Write Methods/Write I16.vi"/>
-					<Item Name="Write I32.vi" Type="VI" URL="../Write Methods/Write I32.vi"/>
-					<Item Name="Write I64.vi" Type="VI" URL="../Write Methods/Write I64.vi"/>
-					<Item Name="Write SGL.vi" Type="VI" URL="../Write Methods/Write SGL.vi"/>
-					<Item Name="Write U8 Array.vi" Type="VI" URL="../Write Methods/Write U8 Array.vi"/>
-					<Item Name="Write U8.vi" Type="VI" URL="../Write Methods/Write U8.vi"/>
-					<Item Name="Write U16.vi" Type="VI" URL="../Write Methods/Write U16.vi"/>
-					<Item Name="Write U32.vi" Type="VI" URL="../Write Methods/Write U32.vi"/>
-					<Item Name="Write U64.vi" Type="VI" URL="../Write Methods/Write U64.vi"/>
+					<Item Name="Write Boolean.vi" Type="VI" URL="../Write Methods/Write Data Register/Instances/Write Boolean.vi"/>
+					<Item Name="Write FXP.vi" Type="VI" URL="../Write Methods/Write Data Register/Instances/Write FXP.vi"/>
+					<Item Name="Write I8.vi" Type="VI" URL="../Write Methods/Write Data Register/Instances/Write I8.vi"/>
+					<Item Name="Write I16.vi" Type="VI" URL="../Write Methods/Write Data Register/Instances/Write I16.vi"/>
+					<Item Name="Write I32.vi" Type="VI" URL="../Write Methods/Write Data Register/Instances/Write I32.vi"/>
+					<Item Name="Write I64.vi" Type="VI" URL="../Write Methods/Write Data Register/Instances/Write I64.vi"/>
+					<Item Name="Write SGL.vi" Type="VI" URL="../Write Methods/Write Data Register/Instances/Write SGL.vi"/>
+					<Item Name="Write U8 Array.vi" Type="VI" URL="../Write Methods/Write Data Register/Instances/Write U8 Array.vi"/>
+					<Item Name="Write U8.vi" Type="VI" URL="../Write Methods/Write Data Register/Instances/Write U8.vi"/>
+					<Item Name="Write U16.vi" Type="VI" URL="../Write Methods/Write Data Register/Instances/Write U16.vi"/>
+					<Item Name="Write U32.vi" Type="VI" URL="../Write Methods/Write Data Register/Instances/Write U32.vi"/>
+					<Item Name="Write U64.vi" Type="VI" URL="../Write Methods/Write Data Register/Instances/Write U64.vi"/>
 				</Item>
-				<Item Name="Write Data Register.vi" Type="VI" URL="../Write Methods/Write Data Register.vi"/>
+				<Item Name="Write Data Register.vi" Type="VI" URL="../Write Methods/Write Data Register/Write Data Register.vi"/>
 			</Item>
 		</Item>
 		<Item Name="TypeDefs" Type="Folder">
