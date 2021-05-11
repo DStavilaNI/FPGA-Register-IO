@@ -544,7 +544,7 @@ AddOutputFilter chunkFilter
 				<Item Name="LVFixedPointRepRangeTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointRepRangeTypeDef.ctl"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
-				<Item Name="OpenByNameSubVI.vi" Type="VI" URL="/&lt;vilib&gt;/addons/FPGA Advanced Session Resources/LVFPGA Adv Session Resources/OpenByNameSubVI.vi"/>
+				<Item Name="LVFPGAAdvSessionResources.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/FPGA Advanced Session Resources/LVFPGA Adv Session Resources/LVFPGAAdvSessionResources.lvlib"/>
 			</Item>
 			<Item Name="NiFpga.dll" Type="Document" URL="NiFpga.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -637,10 +637,10 @@ AddOutputFilter chunkFilter
 			<Item Name="Read Tests" Type="Folder">
 				<Item Name="PXI_Host_Bool_Read_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_Bool_Read_NewMethod_Benchmark.vi"/>
 				<Item Name="PXI_Host_Bool_Read_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_Bool_Read_OldMethod_Benchmark.vi"/>
-				<Item Name="PXI_Host_Cluster_Read_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/PXI_Host_Cluster_Read_NewMethod_Benchmark.vi"/>
-				<Item Name="PXI_Host_Cluster_Read_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/PXI_Host_Cluster_Read_OldMethod_Benchmark.vi"/>
-				<Item Name="PXI_Host_FXP_Read_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/PXI_Host_FXP_Read_NewMethod_Benchmark.vi"/>
-				<Item Name="PXI_Host_FXP_Read_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/PXI_Host_FXP_Read_OldMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_Cluster_Read_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_Cluster_Read_NewMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_Cluster_Read_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_Cluster_Read_OldMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_FXP_Read_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_FXP_Read_NewMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_FXP_Read_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_FXP_Read_OldMethod_Benchmark.vi"/>
 				<Item Name="PXI_Host_I8_Read_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_I8_Read_NewMethod_Benchmark.vi"/>
 				<Item Name="PXI_Host_I8_Read_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_I8_Read_OldMethod_Benchmark.vi"/>
 				<Item Name="PXI_Host_I16_Read_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_I16_Read_NewMethod_Benchmark.vi"/>
@@ -649,8 +649,10 @@ AddOutputFilter chunkFilter
 				<Item Name="PXI_Host_I32_Read_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_I32_Read_OldMethod_Benchmark.vi"/>
 				<Item Name="PXI_Host_I64_Read_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_I64_Read_NewMethod_Benchmark.vi"/>
 				<Item Name="PXI_Host_I64_Read_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_I64_Read_OldMethod_Benchmark.vi"/>
-				<Item Name="PXI_Host_SGL_Read_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/PXI_Host_SGL_Read_NewMethod_Benchmark.vi"/>
-				<Item Name="PXI_Host_SGL_Read_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/PXI_Host_SGL_Read_OldMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_LargeFXP_Read_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_LargeFXP_Read_NewMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_LargeFXP_Read_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_LargeFXP_Read_OldMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_SGL_Read_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_SGL_Read_NewMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_SGL_Read_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_SGL_Read_OldMethod_Benchmark.vi"/>
 				<Item Name="PXI_Host_U8_Read_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_U8_Read_NewMethod_Benchmark.vi"/>
 				<Item Name="PXI_Host_U8_Read_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_U8_Read_OldMethod_Benchmark.vi"/>
 				<Item Name="PXI_Host_U16_Read_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_U16_Read_NewMethod_Benchmark.vi"/>
@@ -661,8 +663,32 @@ AddOutputFilter chunkFilter
 				<Item Name="PXI_Host_U64_Read_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_U64_Read_OldMethod_Benchmark.vi"/>
 			</Item>
 			<Item Name="Write Tests" Type="Folder">
-				<Item Name="PXI_Host_Cluster_Write_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/PXI_Host_Cluster_Write_NewMethod_Benchmark.vi"/>
-				<Item Name="PXI_Host_Cluster_Write_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/PXI_Host_Cluster_Write_OldMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_Bool_Write_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Write Tests/PXI_Host_Bool_Write_NewMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_Bool_Write_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Write Tests/PXI_Host_Bool_Write_OldMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_Cluster_Write_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Write Tests/PXI_Host_Cluster_Write_NewMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_Cluster_Write_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Write Tests/PXI_Host_Cluster_Write_OldMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_FXP_Write_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Write Tests/PXI_Host_FXP_Write_NewMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_FXP_Write_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Write Tests/PXI_Host_FXP_Write_OldMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_I8_Write_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Write Tests/PXI_Host_I8_Write_NewMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_I8_Write_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Write Tests/PXI_Host_I8_Write_OldMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_I16_Write_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Write Tests/PXI_Host_I16_Write_NewMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_I16_Write_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Write Tests/PXI_Host_I16_Write_OldMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_I32_Write_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Write Tests/PXI_Host_I32_Write_NewMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_I32_Write_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Write Tests/PXI_Host_I32_Write_OldMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_I64_Write_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Write Tests/PXI_Host_I64_Write_NewMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_I64_Write_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Write Tests/PXI_Host_I64_Write_OldMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_LargeFXP_Write_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Write Tests/PXI_Host_LargeFXP_Write_NewMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_LargeFXP_Write_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Write Tests/PXI_Host_LargeFXP_Write_OldMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_SGL_Write_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Write Tests/PXI_Host_SGL_Write_NewMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_SGL_Write_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Write Tests/PXI_Host_SGL_Write_OldMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_U8_Write_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Write Tests/PXI_Host_U8_Write_NewMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_U8_Write_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Write Tests/PXI_Host_U8_Write_OldMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_U16_Write_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Write Tests/PXI_Host_U16_Write_NewMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_U16_Write_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Write Tests/PXI_Host_U16_Write_OldMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_U32_Write_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Write Tests/PXI_Host_U32_Write_NewMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_U32_Write_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Write Tests/PXI_Host_U32_Write_OldMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_U64_Write_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Write Tests/PXI_Host_U64_Write_NewMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_U64_Write_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Write Tests/PXI_Host_U64_Write_OldMethod_Benchmark.vi"/>
 			</Item>
 		</Item>
 		<Item Name="TypeDefs" Type="Folder"/>
@@ -727,8 +753,6 @@ AddOutputFilter chunkFilter
 				<Item Name="vi.lib" Type="Folder">
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 				</Item>
-				<Item Name="Complex cluster.ctl" Type="VI" URL="../cRIO RT/TypeDefs/Complex cluster.ctl"/>
-				<Item Name="Simple cluster.ctl" Type="VI" URL="../cRIO RT/TypeDefs/Simple cluster.ctl"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="Scalar FPGA Personality" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -796,8 +820,8 @@ AddOutputFilter chunkFilter
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="LVFixedPointRepBitsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointRepBitsTypeDef.ctl"/>
 				<Item Name="LVFixedPointRepRangeTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointRepRangeTypeDef.ctl"/>
+				<Item Name="LVFPGAAdvSessionResources.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/FPGA Advanced Session Resources/LVFPGA Adv Session Resources/LVFPGAAdvSessionResources.lvlib"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
-				<Item Name="OpenByNameSubVI.vi" Type="VI" URL="/&lt;vilib&gt;/addons/FPGA Advanced Session Resources/LVFPGA Adv Session Resources/OpenByNameSubVI.vi"/>
 			</Item>
 			<Item Name="FPGA Register IO.lvlib" Type="Library" URL="../cRIO RT/FPGA Bitfile Register Operations/Scalar IO Operations/FPGA Register IO.lvlib"/>
 			<Item Name="NiFpga.dll" Type="Document" URL="NiFpga.dll">
