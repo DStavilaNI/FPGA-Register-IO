@@ -436,8 +436,6 @@ AddOutputFilter chunkFilter
 					<Item Name="vi.lib" Type="Folder">
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 					</Item>
-					<Item Name="Simple cluster.ctl" Type="VI" URL="../cRIO RT/TypeDefs/Simple cluster.ctl"/>
-					<Item Name="Complex cluster.ctl" Type="VI" URL="../cRIO RT/TypeDefs/Complex cluster.ctl"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="Scalar FPGA Personality" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -549,7 +547,7 @@ AddOutputFilter chunkFilter
 		<Property Name="target.IsRemotePanelSupported" Type="Bool">true</Property>
 		<Property Name="target.RTCPULoadMonitoringEnabled" Type="Bool">true</Property>
 		<Property Name="target.RTDebugWebServerHTTPPort" Type="Int">8001</Property>
-		<Property Name="target.RTTarget.ApplicationPath" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>
+		<Property Name="target.RTTarget.ApplicationPath" Type="Path">/c/ni-rt/startup/Benchmark.rtexe</Property>
 		<Property Name="target.RTTarget.EnableFileSharing" Type="Bool">true</Property>
 		<Property Name="target.RTTarget.IPAccess" Type="Str">+*</Property>
 		<Property Name="target.RTTarget.LaunchAppAtBoot" Type="Bool">false</Property>
@@ -603,6 +601,38 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
+		<Item Name="Benchmarking Tests" Type="Folder">
+			<Item Name="Read Tests" Type="Folder">
+				<Item Name="PXI_Host_Bool_Read_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_Bool_Read_NewMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_Bool_Read_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_Bool_Read_OldMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_Cluster_Read_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/PXI_Host_Cluster_Read_NewMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_Cluster_Read_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/PXI_Host_Cluster_Read_OldMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_FXP_Read_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/PXI_Host_FXP_Read_NewMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_FXP_Read_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/PXI_Host_FXP_Read_OldMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_I8_Read_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_I8_Read_NewMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_I8_Read_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_I8_Read_OldMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_I16_Read_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_I16_Read_NewMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_I16_Read_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_I16_Read_OldMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_I32_Read_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_I32_Read_NewMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_I32_Read_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_I32_Read_OldMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_I64_Read_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_I64_Read_NewMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_I64_Read_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_I64_Read_OldMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_SGL_Read_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/PXI_Host_SGL_Read_NewMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_SGL_Read_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/PXI_Host_SGL_Read_OldMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_U8_Read_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_U8_Read_NewMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_U8_Read_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_U8_Read_OldMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_U16_Read_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_U16_Read_NewMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_U16_Read_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_U16_Read_OldMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_U32_Read_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_U32_Read_NewMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_U32_Read_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_U32_Read_OldMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_U64_Read_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_U64_Read_NewMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_U64_Read_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_U64_Read_OldMethod_Benchmark.vi"/>
+			</Item>
+			<Item Name="Write Tests" Type="Folder">
+				<Item Name="PXI_Host_Cluster_Write_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/PXI_Host_Cluster_Write_NewMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_Cluster_Write_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/PXI_Host_Cluster_Write_OldMethod_Benchmark.vi"/>
+			</Item>
+		</Item>
 		<Item Name="TypeDefs" Type="Folder"/>
 		<Item Name="FPGA Target 2" Type="FPGA Target">
 			<Property Name="AutoRun" Type="Bool">false</Property>
@@ -707,10 +737,6 @@ AddOutputFilter chunkFilter
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="PXI_Host_Cluster_Read_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/PXI_Host_Cluster_Read_NewMethod_Benchmark.vi"/>
-		<Item Name="PXI_Host_Cluster_Read_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/PXI_Host_Cluster_Read_OldMethod_Benchmark.vi"/>
-		<Item Name="PXI_Host_Cluster_Write_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/PXI_Host_Cluster_Write_NewMethod_Benchmark.vi"/>
-		<Item Name="PXI_Host_Cluster_Write_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/PXI_Host_Cluster_Write_OldMethod_Benchmark.vi"/>
 		<Item Name="RT Main.vi" Type="VI" URL="../R Series RT/RT Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -748,6 +774,49 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="Simple cluster.ctl" Type="VI" URL="../cRIO RT/TypeDefs/Simple cluster.ctl"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="FXP_Read_Benchmark" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{9ECF3B88-3643-4D06-9F1B-22B71FD756E2}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{C7A430F7-F686-4ECE-991C-03DA4370FAB5}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{FF936006-91C8-4D1A-8939-6C00BAFA8F5D}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">FXP_Read_Benchmark</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../R Series RT/Build</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{C3B81A0B-98BA-4C7A-9E66-578F0F3F1865}</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">/c/ni-rt/startup</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Benchmark.rtexe</Property>
+				<Property Name="Destination[0].path" Type="Path">/c/ni-rt/startup/Benchmark.rtexe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/c/ni-rt/startup/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CA04F044-387A-4D5C-83EC-C4E8BF30979E}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/GEcoPharLap18sp1/Benchmarking Tests/Read Tests/PXI_Host_FXP_Read_NewMethod_Benchmark.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">FXP_Read_Benchmark</Property>
+				<Property Name="TgtF_internalName" Type="Str">FXP_Read_Benchmark</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 </Property>
+				<Property Name="TgtF_productName" Type="Str">FXP_Read_Benchmark</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{37BAB8F6-81B4-4AA9-8E9A-7E4EA031DEE9}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Benchmark.rtexe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
