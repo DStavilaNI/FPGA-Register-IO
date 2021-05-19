@@ -464,9 +464,6 @@ AddOutputFilter chunkFilter
 					<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\Users\nitest\Git\NI FPGA Register IO\Source\cRIO FPGA\FPGA Bitfiles\Scalar FPGA Personality.lvbitx</Property>
 				</Item>
 				<Item Name="Dependencies" Type="Dependencies">
-					<Item Name="vi.lib" Type="Folder">
-						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
-					</Item>
 					<Item Name="Simple cluster.ctl" Type="VI" URL="../cRIO RT/TypeDefs/Simple cluster.ctl"/>
 					<Item Name="Complex cluster.ctl" Type="VI" URL="../cRIO RT/TypeDefs/Complex cluster.ctl"/>
 				</Item>
