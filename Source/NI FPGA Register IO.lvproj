@@ -469,6 +469,10 @@ AddOutputFilter chunkFilter
 					<Item Name="vi.lib" Type="Folder">
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 					</Item>
+					<Item Name="Simple cluster.ctl" Type="VI" URL="../cRIO RT/TypeDefs/Simple cluster.ctl"/>
+					<Item Name="Complex cluster.ctl" Type="VI" URL="../cRIO RT/TypeDefs/Complex cluster.ctl"/>
+					<Item Name="All data types cluster.ctl" Type="VI" URL="../cRIO RT/TypeDefs/All data types cluster.ctl"/>
+					<Item Name="Big I8 Cluster.ctl" Type="VI" URL="../cRIO RT/TypeDefs/Big I8 Cluster.ctl"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="Scalar FPGA Personality" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -639,6 +643,8 @@ AddOutputFilter chunkFilter
 			<Item Name="Read Tests" Type="Folder">
 				<Item Name="PXI_Host_Bool_Read_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_Bool_Read_NewMethod_Benchmark.vi"/>
 				<Item Name="PXI_Host_Bool_Read_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_Bool_Read_OldMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_Cluster_40_I8_Read_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_Cluster_40_I8_Read_NewMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_Cluster_All_DataType_Read_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_Cluster_All_DataType_Read_NewMethod_Benchmark.vi"/>
 				<Item Name="PXI_Host_Cluster_Read_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_Cluster_Read_NewMethod_Benchmark.vi"/>
 				<Item Name="PXI_Host_Cluster_Read_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_Cluster_Read_OldMethod_Benchmark.vi"/>
 				<Item Name="PXI_Host_FXP_Read_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_FXP_Read_NewMethod_Benchmark.vi"/>
@@ -751,7 +757,16 @@ AddOutputFilter chunkFilter
 				<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;PXIe-7858R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXIE_7858RFPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin]rseries.aio./Connector0/AI0=0,rseries.aio./Connector0/AI1=0,rseries.aio./Connector0/AI2=0,rseries.aio./Connector0/AI3=0,rseries.aio./Connector0/AI4=0,rseries.aio./Connector0/AI5=0,rseries.aio./Connector0/AI6=0,rseries.aio./Connector0/AI7=0,rseries.analogCalibratedType=1,rseries.dio./Connector0=0,rseries.dio./Connector1=0,rseries.terminalConfig=0[rSeriesConfig.End]</Property>
 				<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">D:\GitBranches\FPGA-Register-IO\Source\R Series FPGA\FPGA Bitfiles\Scalar FPGA Personality.lvbitx</Property>
 			</Item>
+			<Item Name="Simple Scalar FPGA Personality.vi" Type="VI" URL="../cRIO FPGA/Simple Scalar FPGA Personality.vi">
+				<Property Name="BuildSpec" Type="Str">{1626B5B7-7996-45F4-8EAF-68CFDB30F204}</Property>
+				<Property Name="configString.guid" Type="Str">{EDC636FE-0E32-40AD-A23D-CBEB19DB198E}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;PXIe-7858R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXIE_7858RFPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin]rseries.aio./Connector0/AI0=0,rseries.aio./Connector0/AI1=0,rseries.aio./Connector0/AI2=0,rseries.aio./Connector0/AI3=0,rseries.aio./Connector0/AI4=0,rseries.aio./Connector0/AI5=0,rseries.aio./Connector0/AI6=0,rseries.aio./Connector0/AI7=0,rseries.analogCalibratedType=1,rseries.dio./Connector0=0,rseries.dio./Connector1=0,rseries.terminalConfig=0[rSeriesConfig.End]</Property>
+				<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;PXIe-7858R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXIE_7858RFPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin]rseries.aio./Connector0/AI0=0,rseries.aio./Connector0/AI1=0,rseries.aio./Connector0/AI2=0,rseries.aio./Connector0/AI3=0,rseries.aio./Connector0/AI4=0,rseries.aio./Connector0/AI5=0,rseries.aio./Connector0/AI6=0,rseries.aio./Connector0/AI7=0,rseries.analogCalibratedType=1,rseries.dio./Connector0=0,rseries.dio./Connector1=0,rseries.terminalConfig=0[rSeriesConfig.End]</Property>
+				<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">D:\GitBranches\FPGA-Register-IO\Source\R Series FPGA\FPGA Bitfiles\Simple Scalar FPGA Personality.lvbitx</Property>
+			</Item>
 			<Item Name="Dependencies" Type="Dependencies">
+				<Item Name="vi.lib" Type="Folder">
+					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
+				</Item>
 				<Item Name="All data types cluster.ctl" Type="VI" URL="../cRIO RT/TypeDefs/All data types cluster.ctl"/>
 				<Item Name="Big I8 Cluster.ctl" Type="VI" URL="../cRIO RT/TypeDefs/Big I8 Cluster.ctl"/>
 				<Item Name="Complex cluster.ctl" Type="VI" URL="../cRIO RT/TypeDefs/Complex cluster.ctl"/>
@@ -796,8 +811,48 @@ AddOutputFilter chunkFilter
 					<Property Name="TargetName" Type="Str">FPGA Target 2</Property>
 					<Property Name="TopLevelVI" Type="Ref">/GEcoPharLap18sp1/FPGA Target 2/Scalar FPGA Personality.vi</Property>
 				</Item>
+				<Item Name="Simple Scalar FPGA Personality" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
+					<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
+					<Property Name="BuildSpecDecription" Type="Str"></Property>
+					<Property Name="BuildSpecName" Type="Str">Simple Scalar FPGA Personality</Property>
+					<Property Name="Comp.BitfileName" Type="Str">Simple Scalar FPGA Personality.lvbitx</Property>
+					<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
+					<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
+					<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
+					<Property Name="Comp.Version.Build" Type="Int">0</Property>
+					<Property Name="Comp.Version.Fix" Type="Int">0</Property>
+					<Property Name="Comp.Version.Major" Type="Int">1</Property>
+					<Property Name="Comp.Version.Minor" Type="Int">0</Property>
+					<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+					<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+					<Property Name="Comp.Vivado.OptDirective" Type="Str"></Property>
+					<Property Name="Comp.Vivado.PhysOptDirective" Type="Str"></Property>
+					<Property Name="Comp.Vivado.PlaceDirective" Type="Str"></Property>
+					<Property Name="Comp.Vivado.RouteDirective" Type="Str"></Property>
+					<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+					<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
+					<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
+					<Property Name="Comp.Xilinx.MapEffort" Type="Str">default(noTiming)</Property>
+					<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
+					<Property Name="Comp.Xilinx.SynthEffort" Type="Str">normal</Property>
+					<Property Name="Comp.Xilinx.SynthGoal" Type="Str">speed</Property>
+					<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
+					<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
+					<Property Name="DestinationDirectory" Type="Path">R Series FPGA/FPGA Bitfiles</Property>
+					<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/D/GitBranches/FPGA-Register-IO/Source/R Series FPGA/FPGA Bitfiles/Simple Scalar FPGA Personality.lvbitx</Property>
+					<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">R Series FPGA/FPGA Bitfiles/Simple Scalar FPGA Personality.lvbitx</Property>
+					<Property Name="ProjectPath" Type="Path">/D/GitBranches/FPGA-Register-IO/Source/NI FPGA Register IO.lvproj</Property>
+					<Property Name="RelativePath" Type="Bool">true</Property>
+					<Property Name="RunWhenLoaded" Type="Bool">false</Property>
+					<Property Name="SupportDownload" Type="Bool">true</Property>
+					<Property Name="SupportResourceEstimation" Type="Bool">false</Property>
+					<Property Name="TargetName" Type="Str">FPGA Target 2</Property>
+					<Property Name="TopLevelVI" Type="Ref">/GEcoPharLap18sp1/FPGA Target 2/Simple Scalar FPGA Personality.vi</Property>
+				</Item>
 			</Item>
 		</Item>
+		<Item Name="PXI_Host_Cluster_40_I8_Read_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_Cluster_40_I8_Read_OldMethod_Benchmark.vi"/>
+		<Item Name="PXI_Host_Cluster_All_DataType_Read_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_Cluster_All_DataType_Read_OldMethod_Benchmark.vi"/>
 		<Item Name="RT Main.vi" Type="VI" URL="../R Series RT/RT Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -837,6 +892,8 @@ AddOutputFilter chunkFilter
 				<Item Name="Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Waveform Array To Dynamic.vi"/>
 				<Item Name="Waveform Min Max.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Waveform Min Max.vi"/>
 			</Item>
+			<Item Name="All data types cluster.ctl" Type="VI" URL="../cRIO RT/TypeDefs/All data types cluster.ctl"/>
+			<Item Name="Big I8 Cluster.ctl" Type="VI" URL="../cRIO RT/TypeDefs/Big I8 Cluster.ctl"/>
 			<Item Name="FPGA Register IO.lvlib" Type="Library" URL="../cRIO RT/FPGA Bitfile Register Operations/Scalar IO Operations/FPGA Register IO.lvlib"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpga.dll" Type="Document" URL="NiFpga.dll">
