@@ -644,7 +644,9 @@ AddOutputFilter chunkFilter
 				<Item Name="PXI_Host_Bool_Read_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_Bool_Read_NewMethod_Benchmark.vi"/>
 				<Item Name="PXI_Host_Bool_Read_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_Bool_Read_OldMethod_Benchmark.vi"/>
 				<Item Name="PXI_Host_Cluster_40_I8_Read_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_Cluster_40_I8_Read_NewMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_Cluster_40_I8_Read_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_Cluster_40_I8_Read_OldMethod_Benchmark.vi"/>
 				<Item Name="PXI_Host_Cluster_All_DataType_Read_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_Cluster_All_DataType_Read_NewMethod_Benchmark.vi"/>
+				<Item Name="PXI_Host_Cluster_All_DataType_Read_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_Cluster_All_DataType_Read_OldMethod_Benchmark.vi"/>
 				<Item Name="PXI_Host_Cluster_Read_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_Cluster_Read_NewMethod_Benchmark.vi"/>
 				<Item Name="PXI_Host_Cluster_Read_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_Cluster_Read_OldMethod_Benchmark.vi"/>
 				<Item Name="PXI_Host_FXP_Read_NewMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_FXP_Read_NewMethod_Benchmark.vi"/>
@@ -767,10 +769,6 @@ AddOutputFilter chunkFilter
 				<Item Name="vi.lib" Type="Folder">
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 				</Item>
-				<Item Name="All data types cluster.ctl" Type="VI" URL="../cRIO RT/TypeDefs/All data types cluster.ctl"/>
-				<Item Name="Big I8 Cluster.ctl" Type="VI" URL="../cRIO RT/TypeDefs/Big I8 Cluster.ctl"/>
-				<Item Name="Complex cluster.ctl" Type="VI" URL="../cRIO RT/TypeDefs/Complex cluster.ctl"/>
-				<Item Name="Simple cluster.ctl" Type="VI" URL="../cRIO RT/TypeDefs/Simple cluster.ctl"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="Scalar FPGA Personality" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -851,8 +849,6 @@ AddOutputFilter chunkFilter
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="PXI_Host_Cluster_40_I8_Read_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_Cluster_40_I8_Read_OldMethod_Benchmark.vi"/>
-		<Item Name="PXI_Host_Cluster_All_DataType_Read_OldMethod_Benchmark.vi" Type="VI" URL="../R Series RT/Benchmarking Tests/Read Tests/PXI_Host_Cluster_All_DataType_Read_OldMethod_Benchmark.vi"/>
 		<Item Name="RT Main.vi" Type="VI" URL="../R Series RT/RT Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
