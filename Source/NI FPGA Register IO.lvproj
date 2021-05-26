@@ -475,6 +475,11 @@ AddOutputFilter chunkFilter
 					<Item Name="vi.lib" Type="Folder">
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 					</Item>
+					<Item Name="Simple cluster.ctl" Type="VI" URL="../cRIO RT/TypeDefs/Simple cluster.ctl"/>
+					<Item Name="Complex cluster.ctl" Type="VI" URL="../cRIO RT/TypeDefs/Complex cluster.ctl"/>
+					<Item Name="All data types cluster.ctl" Type="VI" URL="../cRIO RT/TypeDefs/All data types cluster.ctl"/>
+					<Item Name="Big I8 Cluster.ctl" Type="VI" URL="../cRIO RT/TypeDefs/Big I8 Cluster.ctl"/>
+					<Item Name="Speciality FPGA IO.lvlib" Type="Library" URL="../Speciality IO/Speciality FPGA IO.lvlib"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="Scalar FPGA Personality" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
